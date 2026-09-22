@@ -116,9 +116,14 @@ export default function PortfolioSite() {
               I build websites and complete digital solutions for businesses, creators and personal brands — and I also create graphics and edit videos.
             </p>
           </div>
-          <div className="monogram" aria-hidden="true">
-            <span>BM</span>
-            <small>Build. Design. Create.</small>
+          <div className="profile-image-wrap">
+            <img
+              className="profile-image"
+              src="/scott-profile.webp"
+              alt="Scott profile artwork"
+              width={400}
+              height={400}
+            />
           </div>
         </section>
 
