@@ -110,13 +110,19 @@ export default function PortfolioSite() {
 
         <section className="intro-card reveal is-visible" id="top">
           <div className="intro-copy">
+            <div className="hero-kicker"><span>01</span><i /> WHO I AM</div>
             <p className="eyebrow">FULL-STACK DEVELOPER · GRAPHIC DESIGNER · VIDEO EDITOR</p>
             <h1>I build, design and create digital experiences.</h1>
             <p className="intro-text">
               I build websites and complete digital solutions for businesses, creators and personal brands — and I also create graphics and edit videos.
             </p>
+            <div className="hero-meta">
+              <span><b>Based in</b> Nigeria</span>
+              <span><b>Open to</b> New projects</span>
+            </div>
           </div>
           <div className="profile-image-wrap">
+            <span className="image-stamp">SCOTT / 01</span>
             <img
               className="profile-image"
               src="/scott-profile.webp"
@@ -128,9 +134,12 @@ export default function PortfolioSite() {
         </section>
 
         <section className="links-block reveal" aria-labelledby="connect-title">
-          <div className="section-heading">
-            <p className="eyebrow">CONNECT</p>
-            <h2 id="connect-title">Everything in one place.</h2>
+          <div className="section-heading section-heading-row">
+            <div>
+              <div className="hero-kicker"><span>02</span><i /> CONNECT</div>
+              <h2 id="connect-title">Everything in one place.</h2>
+            </div>
+            <span className="section-index">LINKS / 04</span>
           </div>
 
           <div className="main-links">
@@ -161,9 +170,12 @@ export default function PortfolioSite() {
         </section>
 
         <section className="work-block reveal" aria-labelledby="work-title">
-          <div className="section-heading section-heading-light">
-            <p className="eyebrow">WHAT I DO</p>
-            <h2 id="work-title">Build. Design. Create.</h2>
+          <div className="section-heading section-heading-light section-heading-row">
+            <div>
+              <div className="hero-kicker"><span>03</span><i /> WHAT I DO</div>
+              <h2 id="work-title">Build. Design. Create.</h2>
+            </div>
+            <span className="section-index">SKILLS / 03</span>
           </div>
           <div className="work-grid">
             {work.map((item, index) => (
@@ -180,6 +192,7 @@ export default function PortfolioSite() {
 
         <footer className="link-footer reveal">
           <div>
+            <div className="footer-mark"><span>BM</span><i>+</i></div>
             <a className="wordmark footer-wordmark" href="#top">BOB<span>MANUEL</span><i>.</i></a>
             <p>Full-Stack Developer · Graphic Designer · Video Editor</p>
           </div>
